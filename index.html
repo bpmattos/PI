@@ -80,7 +80,7 @@
         <div class="form__group form__group--photo">
           <label class="form__label" for="fotoInput">Foto (opcional)</label>
           <div class="photo-picker">
-            <img id="fotoPreview" class="photo-picker__preview" src="img/menina.png" alt="Pré-visualização da foto do aluno">
+            <img id="fotoPreview" class="photo-picker__preview" src="menina.png" alt="Pré-visualização da foto do aluno">
             <input class="form__file" type="file" id="fotoInput" accept="image/*">
           </div>
         </div>
@@ -199,6 +199,7 @@
         <button class="filter-btn" data-filter="Intermediário">Intermediário</button>
         <button class="filter-btn" data-filter="Avançado">Avançado</button>
       </div>
+      <button class="btn btn--ghost" id="btnImprimirLista">Imprimir lista</button>
     </div>
 
     <p class="results-count" id="resultsCount"></p>
@@ -229,9 +230,12 @@
 <!-- ===================== TOAST ===================== -->
 <div class="toast" id="toast" hidden></div>
 
+<!-- ===================== ÁREA DE IMPRESSÃO (ficha/lista) ===================== -->
+<div id="areaImpressao" class="area-impressao"></div>
+
 <!-- ===================== FOOTER ===================== -->
 <footer class="footer">
-  <img class="footer__logo" src="img/logo-enjoy.png" alt="enJoy English School">
+  <img class="footer__logo" src="logo-enjoy.png" alt="enJoy English School">
   <p class="footer__text">enJoy English School — Painel interno de gestão de alunos.</p>
 </footer>
 
